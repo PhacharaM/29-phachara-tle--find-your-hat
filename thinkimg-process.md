@@ -105,22 +105,40 @@
 
 # <p style="display: flex; align-items: center; gap: 0.5em;"><span style="font-weight:bold; color: white; background-color: lightSeaGreen; padding: 0.5rem 2rem;">WRITE YOUR THINKING PROCESS BELOW.</span><span style="font-weight:bold; color: white; background-color: lightSeaGreen; padding: 0.5rem 0;">&nbsp;</span></p>
 
-<!-- Thinking Process -->
-<!-- 1. Workflow Planning -->
-1.fix board to array as printboard fuction
-2.make the player move
-3.update position of player
-4.set game rule & boundary
-5.make it loop to number 2.-5. and check till game end
-<!-- 2.1. Board Functions (Hardcoded) -->
+Thinking Process
+1. Workflow Planning
+  fix board to array as printboard fuction
+  make the player move
+  update position of player
+  set game rule & boundary
+  make it loop to number 2.-5. and check till game end
+
+2.1. Board Functions (Hardcoded)
 use for...of + join
 for turn 2d array to row with for...of
-anf then join all row with Join
-<!-- 2.2. Board Functions (Generated) -->
-<!-- 3. Input Functions -->
-<!-- 4. Movement Functions -->
-<!-- 5. Game Rule Functions -->
-<!-- 6. Game Play Loop -->
+and then join all row with Join
+
+2.2. Board Functions (Generated)
+it's too hard
+
+3. Input Functions
+fx prinrtboard, fx movement, fx check position
+
+4. Movement Functions
+-clear player position on board
+-moveplayer with row--++ col--++
+
+5. Game Rule Functions
+
+1. set boundary
+  - by min col&row < 0 and max >= board.length
+2.game rule
+  -find value and put into if else
+  -Set Win & Loses
+
+6. Game Play Loop
+make it while loop fx prinrtboard > fx movement > fx check position,  check till game end
+
 
 [Back to Table of Contents](#table-of-contents)
 
